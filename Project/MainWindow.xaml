@@ -1,0 +1,50 @@
+﻿<Window x:Class="Project.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Project"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800"
+        ResizeMode="NoResize"
+        WindowStyle="None"
+        WindowStartupLocation="CenterScreen">
+    <Grid>
+        <StackPanel Margin="10,20">
+            
+            <TextBlock 
+        Height="42" 
+        Text="Игра 'Составь слово'" 
+        HorizontalAlignment="Center" 
+        FontSize="20" 
+        VerticalAlignment="Center"
+        FontFamily="Cascadia Code"/>
+            
+            <Button 
+        x:Name="StartButton" 
+        Height="40" Width="180" Margin="80" 
+        Content="Начать игру" FontSize="16" 
+        Click="GameStart"
+        FontFamily="Cascadia Code"/>
+            
+            <Button 
+        x:Name="LeaveButton" 
+        Height="40" Width="180" Margin="0,-80,0,10" 
+        Content="Выйти из игры" FontSize="16" 
+        Click="GameLeave" 
+        FontFamily="Cascadia Code"/>
+
+            <TextBlock 
+        Margin="-20" Height="35" 
+        Text="Введите свой никнейм для статистики лидеров" FontSize="20" 
+        HorizontalAlignment="Center"  
+        FontFamily="Cascadia Code"/>
+
+            <TextBox 
+        x:Name="NicknameTextBox"
+        Height="30" Width="300" Margin="20" 
+        FontFamily="Cascadia Code" TextAlignment="Center"/>
+
+        </StackPanel>
+    </Grid>
+</Window>

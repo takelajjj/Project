@@ -1,0 +1,5 @@
+<Solution>
+  <Folder Name="/Элементы решения/" />
+  <Project Path="Project/Project.csproj" Id="61fb2bc0-16c8-436b-b2fe-34cdbc60f705" />
+  <Project Path="UnitTestProject1/UnitTestProject1.csproj" Id="a6ab5145-5219-437b-ac88-d125a08d0f06" />
+</Solution>
